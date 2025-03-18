@@ -1,0 +1,11 @@
+-classpath '/home/cs_dkone002/CS350/gradle-missD20/project/build/classes/java/main:/home/cs_dkone002/CS350/gradle-missD20/project/build/resources/main'
+-d '/home/cs_dkone002/CS350/gradle-missD20/project/build/docs/javadoc'
+-doctitle 'project API'
+-notimestamp 
+-quiet 
+-windowtitle 'project API'
+'/home/cs_dkone002/CS350/gradle-missD20/project/src/main/java/edu/odu/cs/cs350/Dictionary.java'
+'/home/cs_dkone002/CS350/gradle-missD20/project/src/main/java/edu/odu/cs/cs350/NearHomophones.java'
+'/home/cs_dkone002/CS350/gradle-missD20/project/src/main/java/edu/odu/cs/cs350/SoundEx.java'
+'/home/cs_dkone002/CS350/gradle-missD20/project/src/main/java/edu/odu/cs/cs350/SpellChecker.java'
+'/home/cs_dkone002/CS350/gradle-missD20/project/src/main/java/edu/odu/cs/cs350/Substitutions.java'

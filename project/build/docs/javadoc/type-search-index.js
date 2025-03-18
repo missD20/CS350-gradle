@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"edu.odu.cs.cs350","l":"Dictionary"},{"p":"edu.odu.cs.cs350","l":"NearHomophones"},{"p":"edu.odu.cs.cs350","l":"SoundEx"},{"p":"edu.odu.cs.cs350","l":"SpellChecker"},{"p":"edu.odu.cs.cs350","l":"Substitutions"}];updateSearchResults();

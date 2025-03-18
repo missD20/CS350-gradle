@@ -1,0 +1,40 @@
+plugins {
+   id 'java'
+   id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.7.0'
+    testImplementation 'org.hamcrest:hamcrest-library:3.0'
+}
+
+test {
+    ignoreFailures = true
+    useJUnitPlatform()
+}
+
+application { //Allows  ./gradlew run --args="C:\Users\daksh\OneDrive\Documents\GitHub\gradle-dpate024\project\src\test\data\test.data"
+    mainClass = 'edu.odu.cs.cs350.SpellChecker'
+}
+
+apply plugin: 'java'
+
+jar {
+    manifest {
+        attributes(
+            'Main-Class': 'edu.odu.cs.cs350.SpellChecker' // Adjust with the main class in your project
+        )
+    }
+}
+
+
+task copyDocs (type: Copy, dependsOn: javadoc) {
+    from 'build/docs'
+    into 'build/reports'
+}
+
+check.dependsOn copyDocs
